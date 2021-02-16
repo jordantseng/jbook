@@ -29,7 +29,7 @@ A: Bundler is required.
 3. ***Automatically found all the modules the user has imported from NPM*** -> Manually fetch packages from NPM via UNPKG to avoid CORS issue
 4. Link files together into a single output file
 
-As webpack doesn't work correctly in browser, we use another bundle package called ***ESBuild*** which can transpile and bundle in the browser at the same time.
+In this app, we decided to bundle code in the browser. As webpack doesn't work correctly in browser, we use another bundle package called ***ESBuild*** which can transpile and bundle in the browser at the same time.
 
 ## Usage
 
